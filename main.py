@@ -99,7 +99,7 @@ def main():
     logging.debug("Saving to tempdir: %s", tempdir)
 
     tableau_auth = TSC.TableauAuth('user','pwd')
-    server = TSC.Server('https://reports2.agconnect.org', use_server_version=True)
+    server = TSC.Server('https://tableauserver', use_server_version=True)
 
     project_name = 'project'
     workbook_name = 'workbook'
